@@ -1,7 +1,76 @@
 /* ----------------------------------------
 
 Styles for Media Queries Practice Exercise
-Author: Your Name Here 
+Author: Red Su
 
 ----------------------------------------- */
 
+.box1 {
+    width: 100%;
+    background-color: aqua;
+    height: 300px;
+}
+.box2{
+    background-color: brown;
+    width: 33.333%;
+    height: 300px;
+}
+.box3{
+    background-color: chartreuse;
+    width: 33.333%;
+    height: 300px;
+}
+.box4{
+    background-color: darkblue;
+    width: 33.333%;
+    height: 300px;
+}
+.box5 {
+    background-color: gold;
+    width: 50%;
+    height: 300px;
+}
+.box6{
+    background-color:steelblue;
+    width: 50%;
+    height: 300px;
+}
+.box7{
+    background-color:darkslateblue;
+    width: 25%;
+    height: 300px;
+}
+.box8{
+    background-color:mediumspringgreen;
+    width: 25%;
+    height: 300px;
+}
+.box9{
+    background-color:orchid;
+    width: 25%;
+    height: 300px;
+}
+.box10{
+    background-color:forestgreen;
+    width: 25%;
+    height: 300px;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+    .width1 {
+        width: 50%;
+    }
+    .width2 {
+        width: 33.33%;
+    }
+}
+@media screen and (max-width: 640px){
+    .width3 {
+        width: 100%;
+    }
+}
